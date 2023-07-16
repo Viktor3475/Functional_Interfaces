@@ -6,7 +6,7 @@ public class Main {
 
     public static int reverse(int x) {
 
-
+        //Reversing a string using StringBuilder
 
         StringBuilder string
                 = new StringBuilder(String.valueOf(x));

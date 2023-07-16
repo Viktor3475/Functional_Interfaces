@@ -12,6 +12,8 @@ public class _Stream {
                 new Person("Anna", Gender.FEMALE)
         );
 
+        //Filtering elements of a list that start with the letter 'A'
+
         people.stream().map(person -> person.name)
                 .filter(person -> person.startsWith("A"))
                 .forEach(System.out::println);

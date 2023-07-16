@@ -5,6 +5,8 @@ import java.util.function.Consumer;
 public class Callbacks {
     public static void main(String[] args) {
 
+        //Using callbacks
+
         hello("John", null, value -> {
             System.out.println("No last name provided for "+ value);
         });
